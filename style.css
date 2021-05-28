@@ -142,7 +142,7 @@
     color: rgb(189, 148, 45);
 }
 
-.li-active {
+.li-active a:nth-child(1){
     color: rgb(189, 148, 45);
 }
 
@@ -192,6 +192,10 @@
   
 .bar:hover{
     background: #fff;
+}
+
+.bar:nth-child(1) {
+    background: white;
 }
   
 input[name="r"]{
